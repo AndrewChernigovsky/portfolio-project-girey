@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,18 +7,18 @@
     <title>index</title>
 </head>
 
-<body>
-    <header class="header__main">
+<body class="page__body">
+    <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <a class="header__link-image" href="#"> <img class="header__image" src="./images/signature__image.svg"
+                <a class="header__link-image" href="#"> <img class="header__image" src="./images/logo.svg"
                         alt="Cite logotype." width="78" height="24"></a>
                 <nav class="header__nav">
                     <ul class="header__nav-list">
                         <li class="header__list-item"><a class="header__item-link" href="#">Experience</a></li>
                         <li class="header__list-item"><a class="header__item-link" href="#">Work</a></li>
                         <li class="header__list-item"><a class="header__item-link" href="#">Photography</a></li>
-                        <li class="header__list-item active__nav-link"><a class="header__item-link" href="#">Contact</a>
+                        <li class="header__list-item"><a class="header__item-link active-tab" href="#">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -26,10 +26,10 @@
         </div>
     </header>
     <main class="main">
-        <section class="intro__main">
+        <section class="intro">
             <h2 class="visually__hidden">Product description</h2>
             <div class="container">
-                <img class="intro__image" src="./images/my__photo.jpg" alt="Robbin W." width="750" height="650">
+                <img class="intro__image" src="./images/my-photo.jpg" alt="Robbin W." width="750" height="650">
                 <div class="intro__description">
                     <p class="intro__title">I’m Robin Williams. A Product Designer <span class="intro__span">based in
                             Italy.</span></p>
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </section>
-        <section class="experience__main">
+        <section class="experience">
             <h2 class="visually__hidden">My experience.</h2>
             <div class="container">
                 <div class="experience__title">
@@ -46,7 +46,7 @@
                     <p class="experience__title-big">Companies I have worked
                         for in the past</p>
                 </div>
-                <ul class="experience__list">
+                <ol class="experience__list">
                     <li class="experience__list-item">
                         <span class="experience__number">01</span>
                         <p class="experience__place">
@@ -71,10 +71,10 @@
                         <p class="experience__description">I started my design career with Dribbble. I was incharge of
                             creating illustrations for the platform.</p>
                     </li>
-                </ul>
+                </ol>
             </div>
         </section>
-        <section class="philosophy__main">
+        <section class="philosophy">
             <h2 class="visually__hidden">My philosophy</h2>
             <div class="container">
                 <div class="philosophy__description">
@@ -84,13 +84,13 @@
                         with the metaphysical, and experience with the universe. I try to grasp these things with my
                         values:
                         authenticity, creativity, & hospitality.</p>
-                    <button class="philosophy__more" type="button">More about me</button>
+                    <a class="philosophy__more" href="#">More about me</a>
                 </div>
-                <img class="philosophy__image" src="./images/philosophy__image.jpg" alt="Glass ball in the hand"
+                <img class=" philosophy__image" src="./images/philosophy-image.jpg" alt="Glass ball in the hand"
                     width="720" height="600">
             </div>
         </section>
-        <section class="skillset__main">
+        <section class="skillset">
             <h2 class="visually__hidden">My skills</h2>
             <div class="container">
                 <div class="skillset__block">
@@ -104,21 +104,21 @@
                     </div>
                     <ul class="skillset__list">
                         <li class="skillset__list-item">
-                            <img class="skillset__item-icon" src="./images/icons/skillset__icons-1.svg"
+                            <img class="skillset__item-icon" src="./images/icons/skillset-icons-1.svg"
                                 alt="Product design." width="32" height="32">
                             <h3 class="skillset__item-title">Product Design</h3>
                             <p class="skillset__item-description">Working at Facebook has taught me a lot about how to
                                 understand users, solve problems and build great products.</p>
                         </li>
                         <li class="skillset__list-item">
-                            <img class="skillset__item-icon" src="./images/icons/skillset__icons-2.svg"
+                            <img class="skillset__item-icon" src="./images/icons/skillset-icons-2.svg"
                                 alt="Visual Design." width="32" height="32">
                             <h3 class="skillset__item-title">Visual Design</h3>
                             <p class="skillset__item-description">My experience at dribbble has helped me learn to
                                 develop the eye for design. Colors, typography, layout and the whole package.</p>
                         </li>
                         <li class="skillset__list-item">
-                            <img class="skillset__item-icon" src="./images/icons/skillset__icons-3.svg"
+                            <img class="skillset__item-icon" src="./images/icons/skillset-icons-3.svg"
                                 alt="Motion Design." width="32" height="32">
                             <h3 class="skillset__item-title">Motion Design</h3>
                             <p class="skillset__item-description">I started my design journey with motion design in my
@@ -126,7 +126,7 @@
                                 of story telling. </p>
                         </li>
                         <li class="skillset__list-item">
-                            <img class="skillset__item-icon" src="./images/icons/skillset__icons-4.svg"
+                            <img class="skillset__item-icon" src="./images/icons/skillset-icons-4.svg"
                                 alt="Photography." width="32" height="32">
                             <h3 class="skillset__item-title">Photography</h3>
                             <p class="skillset__item-description">Clicking pictures really brings out the creative in
@@ -138,31 +138,31 @@
             <ul class="skillset__work-list">
                 <li class="skillset__work-list-item">
                     <a class="skillset__work-item-link" href="#">
-                        <img class="skillset__work-link-image" src="/images/icons/comapny__icon-1.svg"
+                        <img class="skillset__work-link-image" src="/images/icons/comapny-icon-1.svg"
                             alt="cbre company." width="85" height="30">
                     </a>
                 </li>
                 <li class="skillset__work-list-item">
                     <a class="skillset__work-item-link" href="#">
-                        <img class="skillset__work-link-image" src="/images/icons/comapny__icon-2.svg"
-                            alt="cbre company." width="69" height="29">
+                        <img class="skillset__work-link-image" src="/images/icons/comapny-icon-2.svg"
+                            alt="epiq company." width="69" height="29">
                     </a>
                 </li>
                 <li class="skillset__work-list-item">
                     <a class="skillset__work-item-link" href="#">
-                        <img class="skillset__work-link-image" src="/images/icons/comapny__icon-3.svg"
-                            alt="cbre company." width="28" height="28">
+                        <img class="skillset__work-link-image" src="/images/icons/comapny-icon-3.svg" alt="Company."
+                            width="28" height="28">
                     </a>
                 </li>
                 <li class="skillset__work-list-item">
                     <a class="skillset__work-item-link" href="#">
-                        <img class="skillset__work-link-image" src="/images/icons/comapny__icon-4.svg"
-                            alt="cbre company." width="20" height="21">
+                        <img class="skillset__work-link-image" src="/images/icons/comapny-icon-4.svg" alt="Company."
+                            width="20" height="21">
                     </a>
                 </li>
             </ul>
         </section>
-        <section class="projects__main">
+        <section class="projects">
             <h2 class="visually__hidden">My projects</h2>
             <div class="container">
                 <div class="projects__block">
@@ -172,7 +172,7 @@
                     </p>
                     <ul class="projects__list">
                         <li class="projects__list-item">
-                            <img class="projects__item-image" src="./images/projects__image-1.jpg"
+                            <img class="projects__item-image" src="./images/projects-image-1.jpg"
                                 alt="Restaurant Website." width="636" height="620">
                             <p class="projects__item-title">Restaurant Website Design</p>
                             <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
@@ -180,7 +180,7 @@
                                 was a very challenging one.</p>
                         </li>
                         <li class="projects__list-item">
-                            <img class="projects__item-image" src="./images/projects__image-2.jpg" alt="Smartphone."
+                            <img class="projects__item-image" src="./images/projects-image-2.jpg" alt="Smartphone."
                                 width="636" height="620">
                             <p class="projects__item-title">Restaurant Website Design</p>
                             <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
@@ -188,7 +188,7 @@
                                 was a very challenging one.</p>
                         </li>
                         <li class="projects__list-item">
-                            <img class="projects__item-image" src="./images/projects__image-3.jpg" alt="Smartphone."
+                            <img class="projects__item-image" src="./images/projects-image-3.jpg" alt="Smartphone."
                                 width="636" height="620">
                             <p class="projects__item-title">Restaurant Website Design</p>
                             <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
@@ -196,7 +196,7 @@
                                 was a very challenging one.</p>
                         </li>
                         <li class="projects__list-item">
-                            <img class="projects__item-image" src="./images/projects__image-4.jpg"
+                            <img class="projects__item-image" src="./images/projects-image-4.jpg"
                                 alt="Restaurant Website." width="636" height="620">
                             <p class="projects__item-title">Restaurant Website Design</p>
                             <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
@@ -204,11 +204,11 @@
                                 was a very challenging one.</p>
                         </li>
                     </ul>
-                    <button class="projects__viev-button" type="button">Viev all projects</button>
+                    <a class="projects__viev-button" href="#">Viev all projects</a>
                 </div>
             </div>
         </section>
-        <section class="follow__main">
+        <section class="follow">
             <h2 class="visually__hidden">Follow me</h2>
             <div class="container">
                 <div class="follow__intagram">
@@ -217,9 +217,9 @@
                         <p class="follow__intagram-text">If you area a person who enjoys photography, then I highly
                             recommend that you check out my Instagram. I’m an avid traveller and I capture the best
                             moments that I would love to cherish with the world</p>
-                        <button class="follow__intagram-button" type="button">Follow me on IG</button>
+                        <a class="follow__intagram-button" href="#">Follow me on IG</a>
                     </div>
-                    <img class="follow__intagram-image" src="./images/follow__instagram-image.jpg"
+                    <img class="follow__intagram-image" src="./images/follow-instagram-image.jpg"
                         alt="View near the planeю" width="720" height="600">
                 </div>
                 <div class="follow__dribbble">
@@ -227,26 +227,26 @@
                         <h2 class="follow__dribbble-title">Dribbble</h2>
                         <p class="follow__dribbble-text">Each dribbble shot is made with love and care. Do check out my
                             work on Dribbble. Likes and comments are appreciated.</p>
-                        <button class="follow__dribbble-button" type="button">Follow me on Dribbble</button>
+                        <a class="follow__dribbble-button" href="#">Follow me on Dribbble</a>
                     </div>
-                    <img class="follow__dribbble-image" src="./images/follow__dribbble-image.jpg" alt="Dribbble shop."
+                    <img class="follow__dribbble-image" src="./images/follow-dribbble-image.jpg" alt="Dribbble shop."
                         width="1076" height="676">
                 </div>
             </div>
         </section>
-        <section class="employer__main">
+        <section class="employer">
             <h2 class="visually__hidden">Reviews employer on me</h2>
             <div class="container">
                 <div class="employer__block">
                     <p class="employer__title">This is what people say about me</p>
                     <p class="employer__text">Here are a few lines from people who I have worked with over the past 8+
                         years in my design career.</p>
-                    <button class="employer__button">See all testimonials</button>
+                    <a class="employer__button" href="#">See all testimonials</a>
                 </div>
                 <ul class="employer__list">
                     <li class="employer__list-item">
                         <figure class="employer__item-figure">
-                            <img class="employer__item-image" src="./images/employer__image-1.jpg"
+                            <img class="employer__item-image" src="./images/employer-image-1.jpg"
                                 alt="Smartphone and laptop." width="636" height="360">
                             <p class="employer__item-text">‘’Robin is one of the best designers I have worked with in my
                                 entire life. He is a designer who is very capable of taking up complex projects and
@@ -254,39 +254,39 @@
                                 impeccable design.’’</p>
                             <figcaption class="employer__item-figcaption">
                                 <span class="employer__CEO">Richard Owens</span>
-                                CEO, Company 1
+                                <span class="employer__job-title">CEO, Company 1</span>
                             </figcaption>
                         </figure>
                     </li>
                     <li class="employer__list-item">
                         <figure class="employer__item-figure">
-                            <img class="employer__item-image" src="./images/employer__image-2.jpg"
-                                alt="Company meeting." width="636" height="360">
+                            <img class="employer__item-image" src="./images/employer-image-2.jpg" alt="Company meeting."
+                                width="636" height="360">
                             <p class="employer__item-text">‘’I think Robin has an incredible gift. It has been an
                                 absolute pleasure to work with a designer of this caliber.’’</p>
                             <figcaption class="employer__item-figcaption">
                                 <span class="employer__CEO">Emily Parker</span>
-                                CEO, Company 2
+                                <span class="employer__job-title">CEO, Company 2</span>
                             </figcaption>
                         </figure>
                     </li>
                     <li class="employer__list-item">
                         <figure class="employer__item-figure">
-                            <img class="employer__item-image" src="./images/employer__image-3.jpg"
+                            <img class="employer__item-image" src="./images/employer-image-3.jpg"
                                 alt="Workflow in company." width="636" height="360">
                             <p class="employer__item-text">‘’All I can say that, Robin is a phenomenal designer. The
                                 wavelength at which he thinks is astoundaing. I love the focus, passion and attention to
                                 detial in the design.’’</p>
                             <figcaption class="employer__item-figcaption">
                                 <span class="employer__CEO">Vincent Rudd</span>
-                                CEO, Company 1
+                                <span class="employer__job-title">CEO, Company 1</span>
                             </figcaption>
                         </figure>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="travel__main">
+        <section class="travel">
             <h2 class="visually__hidden">My travel pictures</h2>
             <div class="container">
                 <div class="travel__block-hero">
@@ -296,20 +296,20 @@
                 </div>
                 <div class="travel__block-picture">
                     <ul class="travel__country-list">
-                        <li class="travel__country-item active__country">Italy</li>
+                        <li class="travel__country-item active-tab">Italy</li>
                         <li class="travel__country-item">Australia</li>
                         <li class="travel__country-item">India</li>
                         <li class="travel__country-item">Brazil</li>
                     </ul>
                     <ul class="travel__picture-list">
-                        <li class="travel__pictures-item active__pictures">
-                            <img class="travel__item-image" src="./images/country__image-1.jpg" alt="Italy." width="306"
+                        <li class="travel__pictures-item active-tab">
+                            <img class="travel__item-image" src="./images/country-image-1.jpg" alt="Italy." width="306"
                                 height="420">
-                            <img class="travel__item-image" src="./images/country__image-2.jpg" alt="Italy." width="306"
+                            <img class="travel__item-image" src="./images/country-image-2.jpg" alt="Italy." width="306"
                                 height="420">
-                            <img class="travel__item-image" src="./images/country__image-3.jpg" alt="Italy." width="306"
+                            <img class="travel__item-image" src="./images/country-image-3.jpg" alt="Italy." width="306"
                                 height="420">
-                            <img class="travel__item-image" src="./images/country__image-4.jpg" alt="Italy." width="306"
+                            <img class="travel__item-image" src="./images/country-image-4.jpg" alt="Italy." width="306"
                                 height="420">
                         </li>
                         <li class="travel__pictures-item">
@@ -334,7 +334,7 @@
                 </div>
             </div>
         </section>
-        <section class="message__main">
+        <section class="message">
             <h2 class="visually__hidden">Send me a message</h2>
             <div class="container">
                 <div class="message__block">
@@ -342,18 +342,18 @@
                     <p class="message__block-text">Now that you know a lot about me, let me know if you are interested
                         to work with me.</p>
                 </div>
-                <form class="message__form" action="" method="get">
+                <form class="message__form" action="" method="post">
                     <p class="message__form-area">
-                        <label class="message__area-name" for="name">Name</label>
-                        <input class="message__area-input" type="text" name="name" id="name" required>
+                        <label class="message__area-name" for="user-name">Name</label>
+                        <input class="message__area-input" type="text" name="user-name" id="user-name" required>
                     </p>
                     <p class="message__form-area">
-                        <label class="message__area-name" for="email">Email</label>
-                        <input class="message__area-input" type="email" name="email" id="email" required>
+                        <label class="message__area-name" for="user-email">Email</label>
+                        <input class="message__area-input" type="email" name="user-email" id="user-email" required>
                     </p>
                     <p class="message__form-area">
-                        <label class="message__area-name" for="text">Message</label>
-                        <textarea class="message__area-textarea" name="textarea" id="text" required></textarea>
+                        <label class="message__area-name" for="message">Message</label>
+                        <textarea class="message__area-textarea" name="message" id="message" required></textarea>
                     </p>
                     <button class="message__area-button" name="button" type="submit">Let’s get started</button>
                 </form>
@@ -364,24 +364,24 @@
         <div class="container">
             <div class="footer__nav">
                 <div class="footer__social">
-                    <a class="footer__link-image" href="#"> <img class="footer__image"
-                            src="./images/signature__image.svg" alt="Cite logotype." width="130" height="40"></a>
+                    <a class="footer__link-image" href="#"> <img class="footer__image" src="./images/logo.svg"
+                            alt="Cite logotype." width="130" height="40"></a>
                     <ul class="footer__social-list">
                         <li class="footer__social-item">
                             <a class="footer__social-link" href="#">
-                                <img class="footer__social-image" src="/images/icons/footer__social-image-1.svg"
+                                <img class="footer__social-image" src="/images/icons/footer-social-image-1.svg"
                                     alt="Twitter." width="24" height="24">
                             </a>
                         </li>
                         <li class="footer__social-item">
                             <a class="footer__social-link" href="#">
-                                <img class="footer__social-image" src="/images/icons/footer__social-image-2.svg"
+                                <img class="footer__social-image" src="/images/icons/footer-social-image-2.svg"
                                     alt="Dribbble." width="24" height="24">
                             </a>
                         </li>
                         <li class="footer__social-item">
                             <a class="footer__social-link" href="#">
-                                <img class="footer__social-image" src="/images/icons/footer__social-image-3.svg"
+                                <img class="footer__social-image" src="/images/icons/footer-social-image-3.svg"
                                     alt="inkedIn." width="24" height="24">
                             </a>
                         </li>
@@ -389,20 +389,20 @@
                 </div>
                 <nav class="footer__navigation">
                     <ul class="footer__navigation-list">
-                        <li class="footer__navigation-item"><a class="footer__navigation-link href=" href="#">Home</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Home</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link href=" href="#">About</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">About</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link href=" href="#">Work</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Work</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link href="
-                                href="#">Process</a></li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link href=" href="#">Store</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Process</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link href=" href="#">Blog</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Store</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link href=" href="#">Reading
-                                List</a></li>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Blog</a>
+                        </li>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Reading List</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
