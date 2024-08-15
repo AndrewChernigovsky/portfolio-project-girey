@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
     <title>index</title>
 </head>
 
@@ -40,7 +44,7 @@
         </section>
         <section class="experience">
             <h2 class="visually__hidden">My experience.</h2>
-            <div class="container">
+            <div class="container grid">
                 <div class="experience__title">
                     <p class="experience__title-samll">Work experience</p>
                     <p class="experience__title-big">Companies I have worked
@@ -76,7 +80,7 @@
         </section>
         <section class="philosophy">
             <h2 class="visually__hidden">My philosophy</h2>
-            <div class="container">
+            <div class="container flex">
                 <div class="philosophy__description">
                     <h2 class="philosophy__title">Philosophy & values</h2>
                     <p class="philosophy__text">I think everyone wants the same thing - relationship with humanity,
@@ -86,13 +90,13 @@
                         authenticity, creativity, & hospitality.</p>
                     <a class="philosophy__more" href="#">More about me</a>
                 </div>
-                <img class=" philosophy__image" src="./images/philosophy-image.jpg" alt="Glass ball in the hand"
+                <img class="philosophy__image" src="./images/philosophy-image.jpg" alt="Glass ball in the hand"
                     width="720" height="600">
             </div>
         </section>
         <section class="skillset">
             <h2 class="visually__hidden">My skills</h2>
-            <div class="container">
+            <div class="container grid">
                 <div class="skillset__block">
                     <div class="skillset__presentation">
                         <h3 class="skillset__title">Skillset</h3>
@@ -134,78 +138,97 @@
                         </li>
                     </ul>
                 </div>
+                <ul class="skillset__work-list">
+                    <li class="skillset__work-list-item">
+                        <a class="skillset__work-item-link" href="#">
+                            <img class="skillset__work-link-image" src="/images/icons/comapny-icon-1.svg"
+                                alt="cbre company." width="85" height="30">
+                        </a>
+                    </li>
+                    <li class="skillset__work-list-item">
+                        <a class="skillset__work-item-link" href="#">
+                            <img class="skillset__work-link-image" src="/images/icons/comapny-icon-2.svg"
+                                alt="epiq company." width="69" height="29">
+                        </a>
+                    </li>
+                    <li class="skillset__work-list-item">
+                        <a class="skillset__work-item-link" href="#">
+                            <img class="skillset__work-link-image" src="/images/icons/comapny-icon-3.svg" alt="Company."
+                                width="28" height="28">
+                        </a>
+                    </li>
+                    <li class="skillset__work-list-item">
+                        <a class="skillset__work-item-link" href="#">
+                            <img class="skillset__work-link-image" src="/images/icons/comapny-icon-4.svg" alt="Company."
+                                width="20" height="21">
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="skillset__work-list">
-                <li class="skillset__work-list-item">
-                    <a class="skillset__work-item-link" href="#">
-                        <img class="skillset__work-link-image" src="/images/icons/comapny-icon-1.svg"
-                            alt="cbre company." width="85" height="30">
-                    </a>
-                </li>
-                <li class="skillset__work-list-item">
-                    <a class="skillset__work-item-link" href="#">
-                        <img class="skillset__work-link-image" src="/images/icons/comapny-icon-2.svg"
-                            alt="epiq company." width="69" height="29">
-                    </a>
-                </li>
-                <li class="skillset__work-list-item">
-                    <a class="skillset__work-item-link" href="#">
-                        <img class="skillset__work-link-image" src="/images/icons/comapny-icon-3.svg" alt="Company."
-                            width="28" height="28">
-                    </a>
-                </li>
-                <li class="skillset__work-list-item">
-                    <a class="skillset__work-item-link" href="#">
-                        <img class="skillset__work-link-image" src="/images/icons/comapny-icon-4.svg" alt="Company."
-                            width="20" height="21">
-                    </a>
-                </li>
-            </ul>
         </section>
         <section class="projects">
             <h2 class="visually__hidden">My projects</h2>
             <div class="container">
                 <div class="projects__block">
                     <p class="projects__list-title">
-                        <span class="projects__title-sapn">My projects</span>
-                        Work that I’ve done for the past 8 years
+                        <span class="projects__title-span">My projects</span>
+                        <span class="projects__title-text">Work that I’ve done for the past 8 years</span>
                     </p>
                     <ul class="projects__list">
                         <li class="projects__list-item">
                             <img class="projects__item-image" src="./images/projects-image-1.jpg"
                                 alt="Restaurant Website." width="636" height="620">
-                            <p class="projects__item-title">Restaurant Website Design</p>
-                            <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
-                                website and mobile app fro both Android and iOS. This project lasted for 4 months and
-                                was a very challenging one.</p>
+                            <div class="projects__item-block">
+                                <p class="projects__item-title">Restaurant Website Design</p>
+                                <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
+                                    website and mobile app fro both Android and iOS. This project lasted for 4 months
+                                    and
+                                    was a very challenging one.</p>
+                            </div>
+
                         </li>
                         <li class="projects__list-item">
                             <img class="projects__item-image" src="./images/projects-image-2.jpg" alt="Smartphone."
                                 width="636" height="620">
-                            <p class="projects__item-title">Restaurant Website Design</p>
-                            <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
-                                website and mobile app fro both Android and iOS. This project lasted for 4 months and
-                                was a very challenging one.</p>
+                            <div class="projects__item-block">
+                                <p class="projects__item-title">Restaurant Website Design</p>
+                                <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
+                                    website and mobile app fro both Android and iOS. This project lasted for 4 months
+                                    and
+                                    was a very challenging one.</p>
+                            </div>
+
                         </li>
                         <li class="projects__list-item">
                             <img class="projects__item-image" src="./images/projects-image-3.jpg" alt="Smartphone."
                                 width="636" height="620">
-                            <p class="projects__item-title">Restaurant Website Design</p>
-                            <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
-                                website and mobile app fro both Android and iOS. This project lasted for 4 months and
-                                was a very challenging one.</p>
+                            <div class="projects__item-block">
+                                <p class="projects__item-title">Restaurant Website Design</p>
+                                <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
+                                    website and mobile app fro both Android and iOS. This project lasted for 4 months
+                                    and
+                                    was a very challenging one.</p>
+                            </div>
+
                         </li>
                         <li class="projects__list-item">
                             <img class="projects__item-image" src="./images/projects-image-4.jpg"
                                 alt="Restaurant Website." width="636" height="620">
-                            <p class="projects__item-title">Restaurant Website Design</p>
-                            <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
-                                website and mobile app fro both Android and iOS. This project lasted for 4 months and
-                                was a very challenging one.</p>
+                            <div class="projects__item-block">
+                                <p class="projects__item-title">Restaurant Website Design</p>
+                                <p class="projects__item-text">I worked with the guys at CBRE to redesign their entire
+                                    website and mobile app fro both Android and iOS. This project lasted for 4 months
+                                    and
+                                    was a very challenging one.</p>
                         </li>
-                    </ul>
+                </div>
+
+                </ul>
+                <div class="projects__viev-block">
                     <a class="projects__viev-button" href="#">Viev all projects</a>
                 </div>
+
+            </div>
             </div>
         </section>
         <section class="follow">
