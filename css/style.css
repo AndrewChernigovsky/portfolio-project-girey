@@ -2,9 +2,20 @@
     box-sizing: border-box;
     }
     
+html {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     margin: 0;
     font-family: "Sen", sans-serif;
+}
+
+.main {
+    flex-grow: 1;
 }
 
 .container {
@@ -34,10 +45,6 @@ body {
 
 .flex {
     display: flex;
-}
-
-.relative {
-    position: relative;
 }
 
 
