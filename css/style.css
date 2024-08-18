@@ -237,9 +237,13 @@ body {
 .philosophy>.container.flex {
     color: black;
     margin: 0 auto;
+    background-image: url(/images/philosophy-image.jpg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
-.philosophy__description {
+.info-block {
     max-width: 720px;
     min-height: 600px;
     padding: 0;
@@ -250,14 +254,14 @@ body {
     padding-right: 72px;
 }
 
-.philosophy__title {
+.info-block__title {
     font-size: 55px;
     font-weight: 700;
     margin: 0;
     margin-bottom: 24px;
 }
 
-.philosophy__text {
+.info-block__text{
     color: #5B6876;
     font-size: 18px;
     width: 576px;
@@ -266,7 +270,7 @@ body {
     margin-bottom: 124px;
 }
 
-.philosophy__more {
+.info-block__more {
     color: black;
     display: block;
     font-size: 16px;
@@ -274,10 +278,6 @@ body {
     min-height: 24px;
     text-underline-offset: 10px;
     text-decoration-color: #8491A0;
-}
-
-.philosophy__image {
-    display: block;
 }
 
 
@@ -686,37 +686,14 @@ body {
 }
 
 .follow__intagram {
-    display: grid;
-    grid-template-columns: 700px 720px;
+    display: flex;
     color: black;
+    background-image: url(/images/follow-instagram-image.jpg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
-.follow__intagram-block {
-    padding: 120px 72px;
-}
-
-.follow__intagram-title {
-    color: #181823;
-    font-size: 55px;
-    font-weight: 700;
-    margin: 0;
-    margin-bottom: 24px;
-}
-
-.follow__intagram-text {
-    color: #5B6876;
-    font-size: 18px;
-    line-height: 150%;
-    margin: 0;
-    margin-bottom: 134px;
-}
-
-.follow__intagram-button {
-    color: #181823;
-    line-height: 150%;
-    text-underline-offset: 10px;
-    text-decoration-color: #8491A0;
-}
 
 .follow__dribbble-container>.container {
     padding: 120px 182px;
@@ -754,6 +731,7 @@ body {
 
 .follow__dribbble-image {
     display: block;
+    border-radius: 9px;
 }
 
 
@@ -816,23 +794,25 @@ body {
     margin-bottom: 64px;
 }
 
-.employer__item-text {
+.employer__block {
     margin: 0 auto;
-    margin-bottom: 64px;
     max-width: 508px;
+    min-height: 295px;
     font-size: 24px;
     line-height: 150%;
     font-weight: 700;
 }
 
-.employer__item-figcaption {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 27px 27px;
-    margin-left:64px;
+.employer__item-text {
+    margin: 0;
+    line-height: 150%;
+    font-weight: 700;
+    margin-bottom: 64px;
 }
 
+
 .employer__item-figcaption>span {
+    display: block;
     font-size: 18px;
     line-height: 150%;
     color: #5B6876;
@@ -989,12 +969,12 @@ body {
 
 
 .footer {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     background-color: rgba(24,24,35,1);
-    bottom: 0;
+    /* bottom: 0;
     right: 50%;
-    transform: translate(50%, 18%);
+    transform: translate(50%, 18%); */
 }
 
 .footer>.container {
@@ -1019,17 +999,17 @@ body {
     display: block;
 }
 
-.footer__social-list {
+.social-list {
     display: flex;
     max-width: 104px;
     gap: 16px;
 }
 
-.footer__social-link {
+.social-list__link {
     display: block;
 }
 
-.footer__social-image {
+.social-list__image {
     display: block;
 }
 
@@ -1078,4 +1058,48 @@ body {
     line-height: 150%;
     color: #8491A0;
     margin: 0;
+}
+
+
+
+/* style */
+
+
+
+.style-button {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;    
+}
+
+.style-button:hover {
+    background-color:#5221E6;
+}
+
+.style-button:active {
+    opacity: 0.7;
+}
+
+.header__list-item:active {
+    opacity: 0.8;
+}
+
+.see-link:hover {
+    opacity: 0.9;
+    color: darkblue;
+    text-decoration-color: darkblue;
+}
+
+.see-link:active {
+    opacity: 0.4;
+}
+
+.skillset__work-item-link:hover {
+    background-color: rgba(17, 17, 17, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.message__area-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
 }

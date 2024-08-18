@@ -19,10 +19,13 @@
                         alt="Cite logotype." width="78" height="24"></a>
                 <nav class="header__nav">
                     <ul class="header__nav-list list-style-none">
-                        <li class="header__list-item"><a class="header__item-link" href="#">Experience</a></li>
-                        <li class="header__list-item"><a class="header__item-link" href="#">Work</a></li>
-                        <li class="header__list-item"><a class="header__item-link" href="#">Photography</a></li>
-                        <li class="header__list-item"><a class="header__item-link active-tab" href="#">Contact</a>
+                        <li class="header__list-item style-button"><a class="header__item-link" href="#">Experience</a>
+                        </li>
+                        <li class="header__list-item style-button"><a class="header__item-link" href="#">Work</a></li>
+                        <li class="header__list-item style-button"><a class="header__item-link" href="#">Photography</a>
+                        </li>
+                        <li class="header__list-item style-button"><a class="header__item-link active-tab"
+                                href="#">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -54,7 +57,8 @@
                     <li class="experience__list-item">
                         <span class="experience__number">01</span>
                         <p class="experience__place">
-                            <a class="experience__item-link Google-link" href="#">Google</a>, Interaction Designer
+                            <a class="experience__item-link Google-link see-link" href="#">Google</a>, Interaction
+                            Designer
                         </p>
                         <p class="experience__description">I currently am the lead designer on the interaction design
                             team for Google Play.</p>
@@ -62,7 +66,8 @@
                     <li class="experience__list-item">
                         <span class="experience__number">02</span>
                         <p class="experience__place">
-                            <a class="experience__item-link Facebook-link" href="#">Facebook</a>, Product Designer
+                            <a class="experience__item-link Facebook-link see-link" href="#">Facebook</a>, Product
+                            Designer
                         </p>
                         <p class="experience__description">I’ve worked on a wide variety of internal tools for facebook
                             over the past 6 years.</p>
@@ -70,7 +75,8 @@
                     <li class="experience__list-item">
                         <span class="experience__number">03</span>
                         <p class="experience__place">
-                            <a class="experience__item-link Dribbble-link" href="#">Dribbble</a>, Graphic Designer
+                            <a class="experience__item-link Dribbble-link see-link" href="#">Dribbble</a>, Graphic
+                            Designer
                         </p>
                         <p class="experience__description">I started my design career with Dribbble. I was incharge of
                             creating illustrations for the platform.</p>
@@ -81,17 +87,16 @@
         <section class="philosophy section">
             <h2 class="visually__hidden">My philosophy</h2>
             <div class="container flex">
-                <div class="philosophy__description">
-                    <h2 class="philosophy__title">Philosophy & values</h2>
-                    <p class="philosophy__text">I think everyone wants the same thing - relationship with humanity,
+                <div class="philosophy__description info-block">
+                    <h2 class="philosophy__title info-block__title">Philosophy & values</h2>
+                    <p class="philosophy__text info-block__text">I think everyone wants the same thing - relationship
+                        with humanity,
                         peace
                         with the metaphysical, and experience with the universe. I try to grasp these things with my
                         values:
                         authenticity, creativity, & hospitality.</p>
-                    <a class="philosophy__more" href="#">More about me</a>
+                    <a class="philosophy__more info-block__more see-link" href="#">More about me</a>
                 </div>
-                <img class="philosophy__image" src="./images/philosophy-image.jpg" alt="Glass ball in the hand"
-                    width="720" height="600">
             </div>
         </section>
         <section class="skillset section">
@@ -225,7 +230,7 @@
 
                 </ul>
                 <div class="projects__viev-block">
-                    <a class="projects__viev-button" href="#">Viev all projects</a>
+                    <a class="projects__viev-button style-button" href="#">Viev all projects</a>
                 </div>
 
             </div>
@@ -234,16 +239,15 @@
             <h2 class="visually__hidden">Follow me</h2>
             <div class="follow__intagram-container">
                 <div class="container">
-                    <div class="follow__intagram">
-                        <div class="follow__intagram-block">
-                            <h2 class="follow__intagram-title">Instagram</h2>
-                            <p class="follow__intagram-text">If you area a person who enjoys photography, then I highly
+                    <div class="follow__intagram ">
+                        <div class="follow__intagram-block info-block">
+                            <h2 class="follow__intagram-title info-block__title">Instagram</h2>
+                            <p class="follow__intagram-text info-block__text">If you area a person who enjoys
+                                photography, then I highly
                                 recommend that you check out my Instagram. I’m an avid traveller and I capture the best
                                 moments that I would love to cherish with the world</p>
-                            <a class="follow__intagram-button" href="#">Follow me on IG</a>
+                            <a class="follow__intagram-button info-block__more see-link" href="#">Follow me on IG</a>
                         </div>
-                        <img class="follow__intagram-image" src="./images/follow-instagram-image.jpg"
-                            alt="View near the planeю" width="720" height="600">
                     </div>
                 </div>
             </div>
@@ -255,7 +259,7 @@
                             <p class="follow__dribbble-text">Each dribbble shot is made with love and care. Do check out
                                 my
                                 work on Dribbble. Likes and comments are appreciated.</p>
-                            <a class="follow__dribbble-button" href="#">Follow me on Dribbble</a>
+                            <a class="follow__dribbble-button see-link" href="#">Follow me on Dribbble</a>
                         </div>
                         <img class="follow__dribbble-image" src="./images/follow-dribbble-image.jpg"
                             alt="Dribbble shop." width="1076" height="676">
@@ -270,46 +274,57 @@
                     <p class="employer__title">This is what people say about me</p>
                     <p class="employer__text">Here are a few lines from people who I have worked with over the past 8+
                         years in my design career.</p>
-                    <a class="employer__button" href="#">See all testimonials</a>
+                    <a class="employer__button see-link" href="#">See all testimonials</a>
                 </div>
                 <ul class="employer__list list-style-none">
                     <li class="employer__list-item">
                         <figure class="employer__item-figure">
                             <img class="employer__item-image" src="./images/employer-image-1.jpg"
                                 alt="Smartphone and laptop." width="636" height="360">
-                            <p class="employer__item-text">‘’Robin is one of the best designers I have worked with in my
-                                entire life. He is a designer who is very capable of taking up complex projects and
-                                delivers
-                                impeccable design.’’</p>
-                            <figcaption class="employer__item-figcaption">
-                                <span class="employer__CEO">Richard Owens</span>
-                                <span class="employer__job-title">CEO, Company 1</span>
-                            </figcaption>
+                            <div class="employer__block">
+                                <p class="employer__item-text">‘’Robin is one of the best designers I have worked with
+                                    in my
+                                    entire life. He is a designer who is very capable of taking up complex projects and
+                                    delivers
+                                    impeccable design.’’</p>
+                                <figcaption class="employer__item-figcaption">
+                                    <span class="employer__CEO">Richard Owens</span>
+                                    <span class="employer__job-title">CEO, Company 1</span>
+                                </figcaption>
+                            </div>
+
                         </figure>
                     </li>
                     <li class="employer__list-item">
                         <figure class="employer__item-figure">
                             <img class="employer__item-image" src="./images/employer-image-2.jpg" alt="Company meeting."
                                 width="636" height="360">
-                            <p class="employer__item-text">‘’I think Robin has an incredible gift. It has been an
-                                absolute pleasure to work with a designer of this caliber.’’</p>
-                            <figcaption class="employer__item-figcaption">
-                                <span class="employer__CEO">Emily Parker</span>
-                                <span class="employer__job-title">CEO, Company 2</span>
-                            </figcaption>
+                            <div class="employer__block">
+                                <p class="employer__item-text">‘’I think Robin has an incredible gift. It has been an
+                                    absolute pleasure to work with a designer of this caliber.’’</p>
+                                <figcaption class="employer__item-figcaption">
+                                    <span class="employer__CEO">Emily Parker</span>
+                                    <span class="employer__job-title">CEO, Company 2</span>
+                                </figcaption>
+                            </div>
+
                         </figure>
                     </li>
                     <li class="employer__list-item">
                         <figure class="employer__item-figure">
                             <img class="employer__item-image" src="./images/employer-image-3.jpg"
                                 alt="Workflow in company." width="636" height="360">
-                            <p class="employer__item-text">‘’All I can say that, Robin is a phenomenal designer. The
-                                wavelength at which he thinks is astoundaing. I love the focus, passion and attention to
-                                detial in the design.’’</p>
-                            <figcaption class="employer__item-figcaption">
-                                <span class="employer__CEO">Vincent Rudd</span>
-                                <span class="employer__job-title">CEO, Company 1</span>
-                            </figcaption>
+                            <div class="employer__block">
+                                <p class="employer__item-text">‘’All I can say that, Robin is a phenomenal designer. The
+                                    wavelength at which he thinks is astoundaing. I love the focus, passion and
+                                    attention to
+                                    detial in the design.’’</p>
+                                <figcaption class="employer__item-figcaption">
+                                    <span class="employer__CEO">Vincent Rudd</span>
+                                    <span class="employer__job-title">CEO, Company 1</span>
+                                </figcaption>
+                            </div>
+
                         </figure>
                     </li>
                 </ul>
@@ -325,10 +340,10 @@
                 </div>
                 <div class="travel__block-picture">
                     <ul class="travel__country-list list-style-none">
-                        <li class="travel__country-item active-tab">Italy</li>
-                        <li class="travel__country-item">Australia</li>
-                        <li class="travel__country-item">India</li>
-                        <li class="travel__country-item">Brazil</li>
+                        <li class="travel__country-item active-tab style-button">Italy</li>
+                        <li class="travel__country-item style-button">Australia</li>
+                        <li class="travel__country-item style-button">India</li>
+                        <li class="travel__country-item style-button">Brazil</li>
                     </ul>
                     <ul class="travel__picture-list list-style-none">
                         <li class="travel__pictures-item active-tab">
@@ -395,42 +410,50 @@
                 <div class="footer__social">
                     <a class="footer__link-image" href="#"> <img class="footer__image" src="./images/logo.svg"
                             alt="Cite logotype." width="130" height="40"></a>
-                    <ul class="footer__social-list list-style-none">
-                        <li class="footer__social-item">
-                            <a class="footer__social-link" href="#">
-                                <img class="footer__social-image" src="/images/icons/footer-social-image-1.svg"
-                                    alt="Twitter." width="24" height="24">
+                    <ul class="footer__social-list list-style-none social-list">
+                        <li class="footer__social-item social-list__item">
+                            <a class="footer__social-link social-list__link" href="#">
+                                <img class="footer__social-image social-list__image"
+                                    src="/images/icons/footer-social-image-1.svg" alt="Twitter." width="24" height="24">
                             </a>
                         </li>
-                        <li class="footer__social-item">
-                            <a class="footer__social-link" href="#">
-                                <img class="footer__social-image" src="/images/icons/footer-social-image-2.svg"
-                                    alt="Dribbble." width="24" height="24">
+                        <li class="footer__social-item social-list__item">
+                            <a class="footer__social-link social-list__link" href="#">
+                                <img class="footer__social-image social-list__image"
+                                    src="/images/icons/footer-social-image-2.svg" alt="Dribbble." width="24"
+                                    height="24">
                             </a>
                         </li>
-                        <li class="footer__social-item">
-                            <a class="footer__social-link" href="#">
-                                <img class="footer__social-image" src="/images/icons/footer-social-image-3.svg"
-                                    alt="inkedIn." width="24" height="24">
+                        <li class="footer__social-item social-list__item">
+                            <a class="footer__social-link social-list__link" href="#">
+                                <img class="footer__social-image social-list__image"
+                                    src="/images/icons/footer-social-image-3.svg" alt="inkedIn." width="24" height="24">
                             </a>
                         </li>
                     </ul>
                 </div>
                 <nav class="footer__navigation">
                     <ul class="footer__navigation-list list-style-none">
-                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Home</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link see-link"
+                                href="#">Home</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">About</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link see-link"
+                                href="#">About</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Work</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link see-link"
+                                href="#">Work</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Process</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link see-link"
+                                href="#">Process</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Store</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link see-link"
+                                href="#">Store</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Blog</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link see-link"
+                                href="#">Blog</a>
                         </li>
-                        <li class="footer__navigation-item"><a class="footer__navigation-link" href="#">Reading List</a>
+                        <li class="footer__navigation-item"><a class="footer__navigation-link see-link" href="#">Reading
+                                List</a>
                         </li>
                     </ul>
                 </nav>
