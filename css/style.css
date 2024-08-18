@@ -49,6 +49,7 @@ body {
 
 
 
+
 /* header */
 
 
@@ -109,7 +110,9 @@ body {
     border-bottom: 1px dashed white;  
 }
 
-
+.intro>.container {
+    position: relative;
+} 
 
 .intro__image {
     display: block;
