@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
     <title>index</title>
+    <script defer src="./js/script.js"></script>
 </head>
 
 <body class="page__body">
@@ -19,16 +20,23 @@
                         alt="Cite logotype." width="78" height="24"></a>
                 <nav class="header__nav">
                     <ul class="header__nav-list list-style-none">
-                        <li class="header__list-item style-button"><a class="header__item-link" href="#">Experience</a>
+                        <li class="header__list-item style-button"><a class="header__item-link"
+                                href="#experience">Experience</a>
                         </li>
-                        <li class="header__list-item style-button"><a class="header__item-link" href="#">Work</a></li>
-                        <li class="header__list-item style-button"><a class="header__item-link" href="#">Photography</a>
+                        <li class="header__list-item style-button"><a class="header__item-link" href="#work">Work</a>
+                        </li>
+                        <li class="header__list-item style-button"><a class="header__item-link"
+                                href="#photography">Photography</a>
                         </li>
                         <li class="header__list-item style-button"><a class="header__item-link active-tab"
-                                href="#">Contact</a>
+                                href="#contacts">Contact</a>
                         </li>
                     </ul>
                 </nav>
+                <button type="button" class="header__burger" id="burger__button">
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                </button>
             </div>
         </div>
     </header>
@@ -46,7 +54,7 @@
                 </div>
             </div>
         </section>
-        <section class="experience section">
+        <section class="experience section" id="experience">
             <h2 class="visually__hidden">My experience.</h2>
             <div class="container grid">
                 <div class="experience__title">
@@ -185,7 +193,7 @@
                 </ul>
             </div>
         </section>
-        <section class="projects section">
+        <section class="projects section" id="work">
             <h2 class="visually__hidden">My projects</h2>
             <div class="container">
 
@@ -344,7 +352,7 @@
                 </ul>
             </div>
         </section>
-        <section class="travel section">
+        <section class="travel section" id="photography">
             <h2 class="visually__hidden">My travel pictures</h2>
             <div class="container">
                 <div class="travel__block-hero">
@@ -392,7 +400,7 @@
                 </div>
             </div>
         </section>
-        <section class="message section">
+        <section class="message section" id="contacts">
             <h2 class="visually__hidden">Send me a message</h2>
             <div class="container">
                 <div class="message__block">
