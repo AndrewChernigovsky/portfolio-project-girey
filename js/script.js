@@ -10,5 +10,13 @@ buttonBurger.addEventListener("click", () => {
 headLink.forEach((link) => {
     link.addEventListener('click', () => {
         headWrap.classList.toggle('open');
+        onLinkClick();
+        link.classList.add('active-tab');
     });
 });
+
+function onLinkClick() {
+    headLink.forEach((link) => {
+        link.classList.remove('active-tab');
+    })
+};
