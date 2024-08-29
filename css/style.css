@@ -38,6 +38,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+    body {
+        width: 360px;
+    }
+
     .container {
         max-width: 360px;
         margin: 0 auto;
@@ -212,6 +217,7 @@ body {
 
     .header__wrapper.open .header__nav-list {
         display: block;
+        padding-top: 20px;
     }
 
 
